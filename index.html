@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio web</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+</head>
+
+<body>
+
+<header class="header">
+    <a href="#inicio" class="logo">Portfolio</a>
+
+    <div class="menu-btn" id="menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <a href="#inicio" style="--i:1" class="active">Inicio</a>
+        <a href="#about" style="--i:2">Sobre mí</a>
+        <a href="#services" style="--i:3">Servicios</a>
+        <a href="#proyectos" style="--i:4">Proyectos</a>
+        <a href="#Skills" style="--i:5">Skills</a>
+        <a href="#contact" style="--i:6">Contacto</a>
+    </nav>
+</header>
+
+    <section class="home" id="inicio">
+        <div class="home-content">
+        
+            <h3>Hola, mi nombre es</h3>
+            <h1>Rubén Moreno</h1>
+            <h3>Y soy <span class="text"></span></h3>
+            <p>Diseñador gráfico con experiencia y Programador Full Stack Developer.
+            </p>
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/rub%C3%A9n-moreno-olivar-1b809167/" style="--i:7"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://web.whatsapp.com" style="--i:9"><i class='bx bxl-whatsapp'></i></a>
+
+            </div>
+            <a href="#about" class="btn-box">Saber más</a>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img id="foto2" src="./img/fondolink1.png">
+        </div>
+        <div class="about-text">
+            <h2>Sobre<span>Mí</span></h2>
+            <h4>Diseñador Gráfico / Full Stack Developer</h4>
+            <p>Soy diseñador gráfico con más de 10 de experiencia y recientemente me he formado como desarrollador de aplicaciones web. Ahora combino mis conocimientos de diseño con mis habilidades en
+            programación para crear soluciones integrales, tanto visuales como funcionales.
+            <br><br>
+            He trabajado en editoriales, agencia de publicidad, y también realizo trabajos como freelance. He desarrollado diferentes proyectos para Correos, ABC, El País, Halcón Viajes,  BriCor, Bricomart, Shiseido, New Holland, entre otros.
+            Mi enfoque abarca desde el diseño offline como online, utilizando tecnologías como Indesign, Photoshop, Illustrator, Adobe Premiere y herramientas de programación de aplicaciones web. 
+            <br><br>
+            Siempre estoy en continua formación para crecer tanto en lo personal como en lo profesional, mientras aplico mis conocimientos para crear diseños que impacten de manera positiva.
+            </p>
+            <a href="./img/cvRubenMorenoFullStack.pdf" download="cvRubenMorenoFullStack.pdf" class="btn-box">Descargar CV</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">Mis <span>Servicios</span></h1>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code' style='color:rgb(252, 1, 1)'></i>
+                    <h2>Offline y Online</h2>
+                    <p>Creación de diseños para diferentes formatos:
+                    <br><br>
+
+                <p>- Maquetación de periódicos y revistas </p>
+                <p>- Carteles y publicidad</p>
+                <p>- Folletos, flyers, dípticos, trípticos… </p>
+                <p>- Retoque fotográfico</p>
+                <p>- Roll ups, banderolas, diseños para marquesinas…</p>
+                <p>- Tarjetas de visita y logos</p>
+                <p>- Catálogos</p>
+                <P>- Branding </P>
+                <p>- Newsletter, digitalizacion de libros EPUB.</p>
+                </div>
+
+                <div class="image-box">
+                </div>
+
+                <div>
+                    <i class='bx bx-merge' style='color:rgb(252, 1, 1)'></i>
+                    <h2>Diseño Web UX/UI</h2>
+                    <p>Mi objetivo es crear experiencias de usuario intuitivas, atractivas y funcionales. He estudiado la metodología Design Thinking y he aprendido a gestionar los proyectos gracias al marco de gestión de Scrum y Kanban. Además de las 
+                    herramientas que utilizo para el front, poseo conocimientos en Figma, Wordpress y Elementor para desarrollar prototipos y diseños visuales que se ajusten a las
+                    necesidades de los usuarios y los objetivos del negocio de manera responsive.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section class="Portfolio" id="proyectos">
+            <div class="main-text">
+                <div class="container">
+                    <h1 class="sub-title">Mis <span>Proyectos</span></h1>
+        
+                    <div class="portfolio-content">
+
+                        <div class="title">Carteles</div>
+
+                        <div class="row">
+                            <img src="./img/CartelA3.png" onclick="openModal(this)">
+                        </div>
+        
+                        <div class="row">
+                            <img src="./img/Cartelbelladurmiente.png" onclick="openModal(this)">
+                        </div>
+        
+                        <div class="row">
+                            <img src="./img/CartelA3_Microdanzas.png" onclick="openModal(this)">
+                        </div>
+                        
+                        <div class="row">
+                            <img src="./img/CartelA3_noches.png" onclick="openModal(this)">
+                        </div>
+                        
+                        <div class="row hidden">
+                            <img src="./img/CartelA3_Terpsicore.png" onclick="openModal(this)">
+                        </div>
+
+                        <div class="row hidden">
+                            <img src="./img/Cartel camisetas.png" onclick="openModal(this)">
+                        </div>
+
+                        <div class="row hidden">
+                            <img src="./img/Cartel halcon.png" onclick="openModal(this)">
+                        </div>
+
+                        <div class="row hidden">
+                            <img src="./img/Cartel Kendal.png" onclick="openModal(this)">
+                        </div>
+
+                        <a id="verMasBtn" class="btn-box" onclick="mostrarMas()">Ver más</a>
+                        <a id="verMenosBtn" class="btn-box hidden" onclick="ocultarImagenes()">Ver menos</a>
+
+
+                        <div class="title">Revistas</div>
+                        
+                            <div class="row">
+                                <img src="./img/Catalago de producto ALTA-1.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row">
+                                <img src="./img/Catalago de producto ALTA-3.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row">
+                                <img src="./img/Catalago de producto ALTA-8.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row">
+                                <img src="./img/Catalago de producto ALTA-283.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row hidden">
+                                <img src="./img/AF_Fundacion Ana de Paz_CORREGIDO-1.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row hidden">
+                                <img src="./img/AF_Fundacion Ana de Paz_CORREGIDO-184.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row hidden">
+                                <img src="./img/AF_Fundacion Ana de Paz_CORREGIDO-220.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row hidden">
+                                <img src="./img/AF_Fundacion Ana de Paz_CORREGIDO-278.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row hidden">
+                                <img src="./img/muchoviaje.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row hidden">
+                                <img src="./img/muchoviaje1.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row hidden">
+                                <img src="./img/muchoviaje2.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row hidden">
+                                <img src="./img/muchoviaje3.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row hidden">
+                                <img src="./img/pasoapaso.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row hidden">
+                                <img src="./img/marbella.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row hidden">
+                                <img src="./img/mercado.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row hidden">
+                                <img src="./img/mercado2.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row hidden">
+                                <img src="./img/mascerca.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row hidden">
+                                <img src="./img/WhatsApp Scan 2025-02-04 at 09.46.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row hidden">
+                                <img src="./img/portada_vino_guia_2013.jpg" onclick="openModal(this)">
+                            </div>
+                        
+                            <div class="row hidden">
+                                <img src="./img/unidental.png" onclick="openModal(this)">
+                            </div>
+                        
+                            <a id="verMasRevistasBtn" class="btn-box" onclick="mostrarMasRevistas()">Ver más</a>
+                            <a id="verMenosRevistasBtn" class="btn-box hidden" onclick="ocultarRevistas()">Ver menos</a>
+                            
+                         <div class="title">Catálogos</div>
+
+                        <div class="row">
+                            <img src="./img/bricor.png" onclick="openModal(this)">
+                        </div>
+
+                        <div class="row">
+                            <img src="./img/bricor1.png" onclick="openModal(this)">
+                        </div>
+
+                        <div class="row">
+                            <img src="./img/bricor2.png" onclick="openModal(this)">
+                        </div>
+
+                        <div class="row">
+                            <img src="./img/bricor3.png" onclick="openModal(this)">
+                        </div>
+
+                        <div class="title">Guías</div>
+
+
+                        <div class="row">
+                            <img src="./img/ascri_informe-1.png" onclick="openModal(this)">
+                        </div>
+                        
+                        <div class="row">
+                            <img src="./img/ascri_informe-13.png" onclick="openModal(this)">
+                        </div>
+                        
+                        <div class="row">
+                            <img src="./img/ascri_informe-23.png" onclick="openModal(this)">
+                        </div>
+                        
+                        <div class="row">
+                            <img src="./img/ascri_informe-5.png" onclick="openModal(this)">
+                        </div>
+
+                        <div class="row hidden">
+                            <img src="./img/GuiaAdministracionesOK-1.png" onclick="openModal(this)">
+                        </div>
+
+                        <div class="row hidden">
+                            <img src="./img/GuiaAdministracionesOK-8.png" onclick="openModal(this)">
+                        </div>
+
+                        <div class="row hidden">
+                            <img src="./img/GuiaAdministracionesOK-12.png" onclick="openModal(this)">
+                        </div>
+
+                        <div class="row hidden">
+                            <img src="./img/GuiaAdministracionesOK-36.png" onclick="openModal(this)">
+                        </div>
+                <a id="verMasGuiasBtn" class="btn-box" onclick="mostrarMasGuias()">Ver más</a>
+                <a id="verMenosGuiasBtn" class="btn-box hidden" onclick="ocultarGuias()">Ver menos</a>
+                    </div>
+                        
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal" id="imageModal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" src="" alt="Imagen Ampliada">
+        </div>                      
+                        
+
+
+        <section class="Skills" id="Skills">
+            <div class="container">
+                <h1 class="sub-title">Mis <span>Skills</span></h1>
+                <div class="skill-bars">
+        
+                    <div class="bar">
+                            <img src="./img/photoshop_5968520.png">
+                        <span>Photoshop</span>
+                    </div>
+
+                    <div class="bar">
+                        <img src="./img/indesign.png">
+                        <span>Indesign</span>
+                    </div>
+
+                    <div class="bar">
+                        <img src="./img/ilustrador.png">
+                        <span>Illustrator</span>
+                    </div>
+
+                    <div class="bar">
+                        <img src="./img/premiere.png">
+                        <span>Premiere</span>
+                    </div>
+
+                    <div class="bar">
+                        <img src="./img/acrobata.png">
+                        <span>Acrobat</span>
+                    </div>
+
+                        <div class="bar">
+                            <i class='bx bxl-html5' style="color: #c95d2e"></i>
+                            <span>HTML</span>
+                        </div>
+        
+                    <div class="bar">
+                        <i class='bx bxl-css3' style="color: #147bbc"></i>
+                        <span>CSS</span>
+                    </div>
+        
+                    <div class="bar">
+                        <i class='bx bxl-javascript' style="color: #b0bc1e"></i>
+                        <span>JavaScript</span>
+                    </div>
+        
+                    <div class="bar">
+                        <i class='bx bxl-angular' style="color: #bd002e"></i>
+                        <span>Angular</span>
+                    </div>
+        
+                    <div class="bar">
+                        <i class="bx bxl-figma" style="color:#19b6f6"></i>
+                        <span>Figma</span>
+                    </div>
+        
+                    <div class="bar">
+                        <i class='bx bxl-wordpress' style="color: #c5c5c5"></i>
+                        <span>Wordpress</span>
+                    </div>
+        
+                    <div class="bar">
+                        <i class="fa-brands fa-elementor" style="color: #92003b"></i>
+                        <span>Elementor</span>
+                    </div>
+        
+                    <div class="bar">
+                        <i class='bx bxl-bootstrap' style='color:#6108f1'></i>
+                        <span>Bootstrap</span>
+                    </div>
+        
+                    <div class="bar">
+                        <i class='bx bxl-nodejs' style="color: #7cb700"></i>
+                        <span>NodeJs</span>
+                    </div>
+                    <div class="bar">
+                        <i class='bx bxl-mongodb' style="color: #4da53f"></i>
+                        <span>MongoDB</span>
+                    </div>
+        
+                    <div class="bar">
+                        <i class='bx bx-data' style="color: #ef9919"></i>
+                        <span>MySql</span>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact-text">
+                    <h1 class="sub-title"> Mi <span>Contacto</span></h1>
+                    <h4>¡Vamos a trabajar juntos!</h4>
+                    <p>Ahora que ya me conoces un poco más, estoy listo para aportar mis habilidades a tu equipo. Si buscas un profesional
+                    entusiasta y comprometido para tus proyectos, contáctame. Estoy dispuesto a contribuir y a
+                    crecer junto a tu empresa. <br> ¡Espero tu mensaje para saber cómo podemos colaborar!</p>
+                    <div class="contact-list">
+                        <li><i class='bx bx-current-location'></i> Madrid</li>
+                        <li><i class='bx bxs-send'></i> rubenm.olivar@gmail.com</li>
+                        <li><i class='bx bxs-phone'></i> Telf.: 617 54 93 11</li>
+                    </div>
+                    <div class="contact-icons">
+                        <a href="https://www.linkedin.com/in/rub%C3%A9n-moreno-olivar-1b809167/"><i
+                            class='bx bxl-linkedin'></i></a>    
+                        <a href="https://web.whatsapp.com"><i class='bx bxl-whatsapp'></i></a>
+
+                        </div>
+            </div>
+            </div>
+        </section>
+
+
+
+
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
