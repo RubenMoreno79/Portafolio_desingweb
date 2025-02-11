@@ -607,7 +607,7 @@ body {
         left: -100%;
         width: 100%;
         height: 60vh;
-        background: #051129;
+        background: rgb(26, 25, 25);
         flex-direction: column;
         justify-content: center;
         align-items: center;
